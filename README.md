@@ -4,4 +4,5 @@
 * All this website was made with free resource on web
 
 ## Resources
+* normalize.css
 * Font-awesome

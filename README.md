@@ -6,3 +6,13 @@
 ## Resources
 * normalize.css
 * Font-awesome
+
+
+## Don't forget
+
+### Add support to svg if the browser doesn't support
+* link: https://css-tricks.com/using-svg/
+
+### Add normalize to the sass partial for production
+
+### Minify all the js files for production

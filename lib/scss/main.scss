@@ -1,8 +1,9 @@
-@import 'partials/normalize';
-@import 'partials/font-awesome';
-@import 'partials/variables';
-@import 'partials/mixins';
-@import 'partials/background';
-@import 'partials/reset';
-@import 'partials/navbar';
-@import 'partials/custom';
+@import 'external/normalize';
+@import 'external/font-awesome';
+@import 'external/reset';
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'components/background';
+@import 'components/fonts';
+@import 'layout/navbar';
+@import 'pages/home';

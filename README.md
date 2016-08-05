@@ -6,6 +6,7 @@
 ## Resources
 * normalize.css
 * Font-awesome
+* sassline ()
 
 
 ## Don't forget

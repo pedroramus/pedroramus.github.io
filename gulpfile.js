@@ -1,10 +1,12 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var webserver = require('gulp-webserver');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 
 var paths = {
-    sass: ['./lib/scss/**/*.scss']
+    sass: ['./lib/scss/**/*.scss'],
+    web: ['./']
 };
 
 gulp.task('sass', function(done) {
@@ -19,8 +21,16 @@ gulp.task('sass', function(done) {
         .on('end', done);
 });
 
+gulp.task('webserver', function() {
+  gulp.src(paths.web)
+    .pipe(webserver({
+      livereload: true,
+      open: true
+    }));
+});
+
 gulp.task('watch', function() {
     gulp.watch(paths.sass, ['sass']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['watch', 'webserver']);

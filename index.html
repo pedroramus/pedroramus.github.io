@@ -8,29 +8,24 @@
     <title>Pedro Ramos - portifólio</title>
     <!-- Viewport meta tag to prevent iPhone from scaling our page -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- For production -->
+    <link rel="stylesheet" href="./assets/css/styles.min.css">
     <!-- These files will be here just in development process, when production will be commented -->
-    <link rel="stylesheet" href="./lib/css/normalize.css">
     <link rel="stylesheet" href="./lib/css/font-awesome.css">
-
     <!-- Add media query support for IE8 and under. Must place media queries in external stylesheet -->
     <script src="./lib/js/respond.min.js"></script>
-
     <!-- Using picturefill to load conditional images and matchmedia to provide support for IE8 and below + older browsers -->
     <script src="./lib/js/picturefill.js"></script>
     <script src="./lib/js/matchmedia.js"></script>
-
     <!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-
     <!--[if lt IE 9]>
     <script src="./lib/js/html5.js"></script>
     <![endif]-->
-
     <!--[if IE 8]>
     <script src="./lib/js/checkbox.js"></script>
     <![endif]-->
-    
     <!--[if IE 6]>
     <script src="./lib/js/selectivizr.min.js"></script>
     <![endif]-->
@@ -40,19 +35,24 @@
     <div id="container-nav">
         <section>
             <h3>Pedro Ramos</h3>
+            <input type="checkbox" id="toggle" />
+            <label for="toggle" onclick>Menu</label>
             <nav>
                 <ul>
-                    <li>SERVIÇOS</li>
-                    <li>PROJETOS</li>
-                    <li>SOBRE</li>
-                    <li>CONTATO</li>
+                    <li><a href="">SERVIÇOS</a></li>
+                    <li><a href="">PROJETOS</a></li>
+                    <li><a href="">SOBRE</a></li>
+                    <li><a href="">CONTATO</a></li>
                 </ul>
             </nav>
         </section>
     </div>
     <div id="container-header">
-        <h1>PEDRO RAMOS</h1>
-        <h2>desenvolvedor e designer</h2>
+        <div>
+            <h1>PEDRO RAMOS</h1>
+            <h2>desenvolvedor e designer</h2>
+            <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
         <div>
             <i class="fa fa-linkedin" aria-hidden="true"></i>
             <i class="fa fa-github-alt" aria-hidden="true"></i>

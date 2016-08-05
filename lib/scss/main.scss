@@ -1,3 +1,7 @@
-@import './partials/normalize',
-		'./partials/variables',
-		'./partials/custom';
+@import 'partials/normalize';
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/background';
+@import 'partials/reset';
+@import 'partials/navbar';
+@import 'partials/custom';

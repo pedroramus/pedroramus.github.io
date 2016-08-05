@@ -6,7 +6,8 @@
 ## Resources
 * normalize.css
 * Font-awesome
-* sassline ()
+* sassline (https://sassline.com)
+* gridle (http://gridle.org/)
 
 
 ## Don't forget

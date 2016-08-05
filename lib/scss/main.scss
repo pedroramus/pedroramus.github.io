@@ -13,6 +13,9 @@
 @import "sassline-base/typography";
 @import "sassline-base/layouts";
 
+// grid sytem with gridle
+@import "grid/grid";
+
 @import 'helpers/variables';
 @import 'helpers/mixins';
 @import 'components/background';

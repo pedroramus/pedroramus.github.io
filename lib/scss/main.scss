@@ -9,8 +9,10 @@
 // setting open sans font
 @import 'fonts';
 
-// grid sytem with gridle
+// using bootstrap
 @import "grid";
+@import "typography";
+@import "scaffolding";
 
 @import 'background';
 @import 'navbar';

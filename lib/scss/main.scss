@@ -1,17 +1,10 @@
 // External files
 @import 'external/normalize';
 @import 'external/font-awesome';
+@import 'external/reset';
 
 // setting open sans font
 @import 'components/fonts';
-
-// Import Sassline base SCSS files in order so variables are read correctly.
-@import "sassline-base/reset";
-@import "sassline-base/variables";
-@import "sassline-base/modular-scale";
-@import "sassline-base/mixins";
-@import "sassline-base/typography";
-@import "sassline-base/layouts";
 
 // grid sytem with gridle
 @import "grid/grid";

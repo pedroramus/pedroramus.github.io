@@ -1,3 +1,24 @@
 #container-header {
 	@extend .gradient-blue-back;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+#main-name {
+	h2 {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+}
+
+.icons {
+	font-size: 3rem;
+	margin-bottom: 30px;
+	i + i {
+		padding-left: 2rem;
+	}
+}
+
+.arrow-down-button {
+	font-size: 3rem;
 }

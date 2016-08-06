@@ -1,3 +1,7 @@
 .gradient-blue-back {
-	@include gradient(#64cbca, #336799);
+	@include gradient-directional(#64cbca, #336799);
+}
+
+.gradient-green-back {
+	@include gradient-directional(#34f300, #04a217);
 }

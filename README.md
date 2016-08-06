@@ -7,7 +7,6 @@
 * normalize.css
 * Font-awesome
 * grid lover (http://www.gridlover.net/try)
-* gridle (http://gridle.org/)
 
 
 ## Don't forget

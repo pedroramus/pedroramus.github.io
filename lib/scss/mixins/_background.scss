@@ -1,3 +1,5 @@
+// background
+
 @mixin gradient($color1, $color2, $direction1: left, $direction2: right, $direction3: top, $percentage1: 0%, $percentage2: 100%) {
 	background: $color1;
     background: -moz-linear-gradient($direction1, $color1 $percentage1, $color2 $percentage2);

@@ -1,16 +1,17 @@
 // External files
-@import 'external/normalize';
-@import 'external/font-awesome';
-@import 'external/reset';
+@import 'normalize';
+@import 'font-awesome';
+@import 'reset';
+
+@import 'variables';
+@import 'mixins/mixins';
 
 // setting open sans font
-@import 'components/fonts';
+@import 'fonts';
 
 // grid sytem with gridle
-@import "grid/grid";
+@import "grid";
 
-@import 'helpers/variables';
-@import 'helpers/mixins';
-@import 'components/background';
-@import 'layout/navbar';
-@import 'pages/home';
+@import 'background';
+@import 'navbar';
+@import 'home';

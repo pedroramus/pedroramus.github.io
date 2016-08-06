@@ -5,3 +5,7 @@
 .gradient-green-back {
 	@include gradient-directional(#34f300, #04a217);
 }
+
+.grey-background {
+	background: #f4f4f4;
+}

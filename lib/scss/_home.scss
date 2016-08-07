@@ -28,3 +28,20 @@
         }
     }
 }
+
+#projetos {
+    a:hover {
+        .back-green {
+            display: block;
+            z-index: 10;
+        }
+    }
+    .img-circle {
+        background: white;
+        padding: 3rem;
+        position: relative;
+        .back-green {
+            display: none;
+        }
+    }
+}

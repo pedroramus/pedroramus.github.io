@@ -32,28 +32,30 @@
 
 <body>
     <div id="container-nav">
-        <section class="container">
-            <!-- <h3>Pedro Ramos</h3> -->
-            <input type="checkbox" id="toggle" />
-            <label for="toggle" onclick><i class="fa fa-bars"></i></label>
-            <nav>
-                <ul>
-                    <li><a href="">SERVIÇOS</a></li>
-                    <li><a href="">PROJETOS</a></li>
-                    <li><a href="">SOBRE</a></li>
-                    <li><a href="">CONTATO</a></li>
-                </ul>
-            </nav>
+        <section class="">
+            <div class="container">
+                <!-- <h3>Pedro Ramos</h3> -->
+                <input type="checkbox" id="toggle" />
+                <label class="gradient-green-back" for="toggle" onclick><i class="fa fa-bars"></i></label>
+                <nav>
+                    <ul>
+                        <li><a href="">SERVIÇOS</a></li>
+                        <li><a href="">PROJETOS</a></li>
+                        <li><a href="">SOBRE</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
         </section>
     </div>
-    <div id="container-header">
+    <div id="container-header" class="gradient-blue-back">
         <section class="center white-text">
             <div class="container">
                 <div id="main-name">
                     <h1>PEDRO RAMOS</h1>
                     <h2>desenvolvedor e designer</h2>
                 </div>
-                <div class="icons grey-light-text">
+                <div class="icons grey-light-icon">
                     <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-github-alt" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -70,42 +72,62 @@
             <div class="container">
                 <header class="center">
                     <h1>Serviços</h1>
-                    <h5>O que eu posso fazer por você ou sua empresa?</h5>
+                    <div class="division-line"></div>
+                    <h5 class="grey-text">O que eu posso fazer por você ou sua empresa?</h5>
                 </header>
-                <article>
-                    <img src="./assets/images/servicos/domain-registration.svg" alt="seção serviços websites">
-                    <h4>Websites</h4>
-                    <p>
-                        Design e implementação de websites robustos, com foco em beleza, responsividade e compatibilidade com os mais diveros navegadores e sistemas operacionais (desktop e mobile) disponíveis pelo mercado.
-                    </p>
-                </article>
-                <article>
-                    <img src="./assets/images/servicos/devices.svg" alt="seção serviço aplicativos">
-                    <h4>Aplicativos</h4>
-                    <p>
-                        Desenvolvimento de aplicativos híbridos para dispositivos móveis com sistema operacional android, aplicando tecnologia utilizada para criação de websites para ser usado em celular ou tablet.
-                    </p>
-                </article>
-                <article>
-                    <img src="./assets/images/servicos/blogging.svg" alt="seção serviço blogs">
-                    <h4>Blogs</h4>
-                    <p>
-                        Criação de blogs utilizando o wordpress como ferramenta de gerência de conteúdo. Sendo este o jeito outra alternativa de sair do zero para um site capaz de converter usuários em clientes em potencial.
-                    </p>
-                </article>
-                <article>
-                    <img src="./assets/images/servicos/stats.svg" alt="seção serviço marketing">
-                    <h4>Marketing</h4>
-                    <p>
-                        Utilização de mídias sociais para a realicação de campanhas online para conversão de usuários em novos clientes. Vem como auxílio para uma mídia já existente, como website, celular ou blog.
-                    </p>
-                </article>
+                <div class="row">
+                    <article class="col-xs-12 center">
+                        <div class="gradient-blue-back img-circle">
+                            <img class="img-responsive" src="./assets/images/servicos/domain-registration.svg" alt="seção serviços websites">
+                        </div>
+                        <div class="content-article">
+                            <h3>Websites</h3>
+                            <p class="grey-text">
+                                Design e implementação de websites robustos, com foco em beleza, responsividade e compatibilidade com os mais diveros navegadores e sistemas operacionais (desktop e mobile) disponíveis pelo mercado.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 center">
+                        <div class="gradient-blue-back img-circle">
+                            <img class="img-responsive" src="./assets/images/servicos/devices.svg" alt="seção serviço aplicativos">
+                        </div>
+                        <div class="content-article">
+                            <h3>Aplicativos</h3>
+                            <p class="grey-text">
+                                Desenvolvimento de aplicativos híbridos para dispositivos móveis com sistema operacional android, aplicando tecnologia utilizada para criação de websites para ser usado em celular ou tablet.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 center">
+                        <div class="gradient-blue-back img-circle">
+                            <img class="img-responsive" src="./assets/images/servicos/blogging.svg" alt="seção serviço blogs">
+                        </div>
+                        <div class="content-article">
+                            <h3>Blogs</h3>
+                            <p class="grey-text">
+                                Criação de blogs utilizando o wordpress como ferramenta de gerência de conteúdo. Sendo este o jeito outra alternativa de sair do zero para um site capaz de converter usuários em clientes em potencial.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-xs-12 center">
+                        <div class="gradient-blue-back img-circle">
+                            <img class="img-responsive" src="./assets/images/servicos/stats.svg" alt="seção serviço marketing">
+                        </div>
+                        <div class="content-article">
+                            <h3>Marketing</h3>
+                            <p class="grey-text">
+                                Utilização de mídias sociais para a realicação de campanhas online para conversão de usuários em novos clientes. Vem como auxílio para uma mídia já existente, como website, celular ou blog.
+                            </p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
         <section id="projetos" class=" grey-background">
             <div class="container">
                 <header class="center">
                     <h1>Projetos</h1>
+                    <div class="division-line"></div>
                     <h5>Projetos ou serviços em destaque.</h5>
                 </header>
                 <article>
@@ -124,6 +146,7 @@
             </div>
             <header class="center">
                 <h1>Sobre</h1>
+                <div class="division-line"></div>
                 <h5>As tecnologia que faço uso para o desenvolvimento de projetos.</h5>
             </header>
         </section>
@@ -131,6 +154,7 @@
             <div class="container">
                 <header class="center">
                     <h1>Contato</h1>
+                    <div class="division-line"></div>
                     <h5>Envie-me um email sobre possibilidades de negócios, dúvidas, sugestões ou apenas para dizer "oi".</h5>
                 </header>
                 <article>

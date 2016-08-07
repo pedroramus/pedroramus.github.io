@@ -1,34 +1,30 @@
-#container-header {
-	@extend .gradient-blue-back;
-}
-
 #main-name {
-	h2 {
-		margin-top: 0;
-		margin-bottom: 90px;
-	}
+    h2 {
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
 }
 
 .icons {
-	font-size: 3rem;
-	margin-bottom: 90px;
-	a {
-		color: $grey-light-color;
-		&:hover {
-			color: $green-color;
-		}
-	}
-	a + a {
-		padding-left: 2rem;
-	}
+    font-size: 3rem;
+    margin-bottom: 90px;
+    a {
+        color: $grey-light-color;
+        &:hover {
+            color: $green-color;
+        }
+    }
+    a + a {
+        padding-left: 2rem;
+    }
 }
 
 .arrow-down-button {
-	font-size: 3rem;
-	a {
-		color: $grey-light-color;
-		&:hover {
-			color: $green-color;
-		}
-	}
+    font-size: 3rem;
+    a {
+        color: $grey-light-color;
+        &:hover {
+            color: $green-color;
+        }
+    }
 }

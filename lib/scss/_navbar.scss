@@ -5,6 +5,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: hidden;
+    z-index: 999;
     section {
         padding-top: 0;
         padding-bottom: 0;
@@ -42,7 +44,6 @@
         user-select: none;
         width: 5rem;
         height: 5rem;
-        @extend .gradient-green-back;
         border-radius: 50%;
         margin-top: 2rem;
     }

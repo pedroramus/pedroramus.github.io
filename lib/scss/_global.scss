@@ -1,11 +1,32 @@
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 .white-text {
-	color: white;
+    color: white;
 }
 
-.grey-light-text {
-	color: $grey-light-color;
+.grey-light-icon {
+    color: $grey-light-color;
+}
+
+.grey-text {
+	color: #ababab;
+}
+
+.content-article {
+    margin-top: 2rem;
+}
+
+.img-circle {
+    padding: 5rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.division-line {
+	width: 4rem;
+	height: 0.5rem;
+	margin: 20px auto;
+	@extend .gradient-blue-back;
 }

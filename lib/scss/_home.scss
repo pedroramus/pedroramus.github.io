@@ -5,30 +5,6 @@
     }
 }
 
-.icons {
-    font-size: 3rem;
-    margin-bottom: 90px;
-    a {
-        color: $grey-light-color;
-        &:hover {
-            color: $green-color;
-        }
-    }
-    a + a {
-        padding-left: 2rem;
-    }
-}
-
-.arrow-down-button {
-    font-size: 3rem;
-    a {
-        color: $grey-light-color;
-        &:hover {
-            color: $green-color;
-        }
-    }
-}
-
 #projetos {
     a:hover {
         .back-green {

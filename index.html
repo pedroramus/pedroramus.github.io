@@ -128,47 +128,49 @@
                 <header class="center">
                     <h1>Projetos</h1>
                     <div class="division-line"></div>
-                    <h5>Projetos ou serviços em destaque.</h5>
+                    <h5 class="grey-text">Projetos ou serviços em destaque.</h5>
                 </header>
-                <article class="col-xs-12 center">
-                    <a href="">
-                        <div class="img-circle">
-                            <img class="img-responsive" src="./assets/images/projetos/mainpagelogo.png" alt="seção serviço marketing">
-                            <div class="back-green">
-                                <div>
-                                    VISITAR
+                <div class="row">
+                    <article class="col-xs-12 center">
+                        <a href="">
+                            <div class="img-circle">
+                                <img class="img-responsive" src="./assets/images/projetos/mainpagelogo.png" alt="seção serviço marketing">
+                                <div class="back-green">
+                                    <div>
+                                        VISITAR
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                    <h4>Website para greenbooks</h4>
-                </article>
-                <article class="col-xs-12 center">
-                    <a href="">
-                        <div class="img-circle">
-                            <img class="img-responsive" src="./assets/images/projetos/logo3.png" alt="seção serviço marketing">
-                            <div class="back-green">
-                                <div>
-                                    VISITAR
+                        </a>
+                        <h4>Website para greenbooks</h4>
+                    </article>
+                    <article class="col-xs-12 center">
+                        <a href="">
+                            <div class="img-circle">
+                                <img class="img-responsive" src="./assets/images/projetos/logo3.png" alt="seção serviço marketing">
+                                <div class="back-green">
+                                    <div>
+                                        VISITAR
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                    <h4>Marketing para game learn por e-mail - greenbooks</h4>
-                </article>
-                <article class="col-xs-12 center">
-                    <a href="">
-                        <div class="img-circle">
-                            <img class="img-responsive" src="./assets/images/projetos/logoEvent.png" alt="seção serviço marketing">
-                            <div class="back-green">
-                                <div>
-                                    VISITAR
+                        </a>
+                        <h4>Marketing para game learn por e-mail - greenbooks</h4>
+                    </article>
+                    <article class="col-xs-12 center">
+                        <a href="">
+                            <div class="img-circle">
+                                <img class="img-responsive" src="./assets/images/projetos/logoEvent.png" alt="seção serviço marketing">
+                                <div class="back-green">
+                                    <div>
+                                        VISITAR
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                    <h4>Marketing para workshop de Return On Investment (ROI) - greenbooks</h4>
-                </article>
+                        </a>
+                        <h4>Marketing para workshop de Return On Investment (ROI) - greenbooks</h4>
+                    </article>
+                </div>
             </div>
         </section>
         <section id="sobre" class="">
@@ -177,7 +179,7 @@
             <header class="center">
                 <h1>Sobre</h1>
                 <div class="division-line"></div>
-                <h5>As tecnologia que faço uso para o desenvolvimento de projetos.</h5>
+                <h5 class="grey-text">As tecnologia que faço uso para o desenvolvimento de projetos.</h5>
             </header>
         </section>
         <section id="contato" class=" grey-background">
@@ -185,36 +187,40 @@
                 <header class="center">
                     <h1>Contato</h1>
                     <div class="division-line"></div>
-                    <h5>Envie-me um email sobre possibilidades de negócios, dúvidas, sugestões ou apenas para dizer "oi".</h5>
+                    <h5 class="grey-text">Envie-me um email sobre possibilidades de negócios, dúvidas, sugestões ou apenas para dizer "oi".</h5>
                 </header>
-                <article>
-                    <form action="">
-                        <div>
-                            <label for="">Nome</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Email</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <label for="">Messagem</label>
-                            <input type="text">
-                        </div>
-                        <div>
-                            <button>ENVIAR</button>
-                        </div>
-                        <div>
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <p>ramuspedro@gmail.com</p>
-                        </div>
-                        <div>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>Passagem Paraná, número 35</p>
-                            <p>Belém, Pará, Brasil</p>
-                            <p>CEP: 66085-400</p>
-                        </div>
-                    </form>
+                <article class="col-xs-12 center">
+                    <div class="row">
+                        <form>
+                            <div class="form-group">
+                                <!-- <label for="">Nome</label> -->
+                                <input type="text" placeholder="Nome" class="form-control">
+                            </div>
+                            <div class="division-2rem form-group">
+                                <!-- <label for="">Email</label> -->
+                                <input type="text" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="division-2rem form-group">
+                                <!-- <label for="">Messagem</label> -->
+                                <textarea name="message" id="textarea" rows="7" placeholder="Sua messagem aqui" class="form-control"></textarea>
+                            </div>
+                            <div class="division-2rem">
+                                <a href="" class="btn btn-main btn-lg border-grey">Enviar</a>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+                <article class="col-xs-12 center">
+                    <div class="division-2rem">
+                        <i class="fa fa-envelope icon-small" aria-hidden="true"></i>
+                        <p>ramuspedro@gmail.com</p>
+                    </div>
+                    <div class="division-2rem">
+                        <i class="fa fa-map-marker icon-small" aria-hidden="true"></i>
+                        <p>Passagem Paraná, número 35</p>
+                        <p>Belém, Pará, Brasil</p>
+                        <p>CEP: 66085-400</p>
+                    </div>
                 </article>
             </div>
         </section>

@@ -4,6 +4,7 @@
 @import 'reset';
 
 @import 'variables';
+@import 'custom-variables';
 @import 'mixins/mixins';
 
 // setting open sans font
@@ -13,8 +14,10 @@
 @import "grid";
 @import "typography";
 @import "scaffolding";
+@import "forms";
+@import "buttons";
 
-@import 'background';
+@import 'custom-background';
 @import 'navbar';
 @import 'global';
 @import 'home';

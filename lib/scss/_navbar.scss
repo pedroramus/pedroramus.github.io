@@ -1,6 +1,5 @@
 #container-nav {
     // temporally
-    background-color: rgba(0, 0, 0, 0);
     margin: 0;
     position: fixed;
     top: 0;
@@ -22,14 +21,38 @@
         list-style: none;
     }
     nav {
+        display: block;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        background: #1DA1F2;
+        padding-top: 4rem;
         display: none;
-        padding-top: 40px;
+        a {
+            color: white;
+            font-size: 1.7rem;
+            line-height: 1.6em;
+            text-decoration: none;
+            &:hover {
+                color: $light-green !important;
+                i {
+                    color: $light-green !important;
+                }
+            }
+        }
+        i {
+            color: white;
+        }
+        li {
+            margin-bottom: .65625rem;
+        }
+        .icons {
+            padding-top: 4rem;
+        }
     }
     input[type=checkbox] {
         display: none;
-    }
-    input[type=checkbox]:checked ~ nav {
-        display: block;
     }
     label {
         float: right;
@@ -42,15 +65,13 @@
         -ms-user-select: none;
         /* IE 10+ */
         user-select: none;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
+        // width: 5rem;
+        // height: 5rem;
+        // border-radius: 50%;
         margin-top: 1rem;
     }
     i {
         color: white;
-        font-size: 3rem;
-        padding-top: 0.9rem;
-        padding-left: 1.3rem;
+        font-size: 2.5rem;
     }
 }

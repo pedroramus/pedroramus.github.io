@@ -17,3 +17,5 @@
 ### Add normalize to the sass partial for production
 
 ### Minify all the js files for production
+
+### working in circle for "serviços" using max-width to avoid problems

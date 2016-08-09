@@ -1,7 +1,7 @@
 // index page
 
 /*
-	Considerations 
+    Considerations 
 */
 
 // section
@@ -20,16 +20,16 @@ textarea {
 }
 
 .border-grey {
-	border: 1px solid $background-grey-color;
+    border: 1px solid $background-grey-color;
 }
 
 .btn-main {
     color: white;
     @extend .gradient-green-back;
     &:hover {
-    	background: rgba(0,0,0,0);
-    	color: $light-green;
-    	border: 1px solid $light-green;
+        background: rgba(0, 0, 0, 0);
+        color: $light-green;
+        border: 1px solid $light-green;
     }
 }
 
@@ -57,6 +57,7 @@ textarea {
     padding: 5rem;
     width: 75%;
     margin: 0 auto;
+    max-width: 22rem;
 }
 
 .division-line {
@@ -86,8 +87,8 @@ textarea {
 }
 
 .icon-small {
-	font-size: 2rem;
-	color: $light-green;
+    font-size: 2rem;
+    color: $light-green;
 }
 
 .icons {

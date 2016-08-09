@@ -18,4 +18,4 @@
 
 ### Minify all the js files for production
 
-### working in circle for "serviços" using max-width to avoid problems
+### include all the links on footer two columns

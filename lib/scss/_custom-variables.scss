@@ -8,3 +8,7 @@ $dark-blue: #336799;
 
 $light-green: #34f300;
 $dark-green: #04a217;
+
+$font-size-custom: 16px !default;
+
+$line-height-custom: floor(($font-size-custom * $line-height-base)) !default; // ~20px

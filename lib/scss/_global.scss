@@ -19,6 +19,21 @@ textarea {
     resize: none;
 }
 
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-custom;
+    line-height: $line-height-custom;
+    color: $black-color;
+    font-weight: 300;
+    background-color: $body-bg;
+}
+
+header {
+    h4 {
+        font-weight: 300;
+    }
+}
+
 .border-grey {
     border: 1px solid $background-grey-color;
 }
@@ -46,7 +61,7 @@ textarea {
 }
 
 .grey-text {
-    color: #ababab;
+    color: #4c4c4c;
 }
 
 .content-article {
@@ -118,4 +133,12 @@ textarea {
         }
     }
     @extend .scroll-animate;
+}
+
+.hide-elements {
+    display: none;
+}
+
+.btn-lg {
+    min-width: 10rem;
 }

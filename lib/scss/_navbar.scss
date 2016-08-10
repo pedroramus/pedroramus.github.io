@@ -1,16 +1,16 @@
 #container-nav {
     // temporally
-    margin: 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 999;
-    background: white;
-    border-top: 1px solid $invision-light-grey;
     section {
         padding-top: 0;
         padding-bottom: 0;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 999;
+        background: white;
+        border-top: 1px solid $invision-light-grey;
     }
     h3 {
         margin: 0;
@@ -22,13 +22,16 @@
         padding: 0;
     }
     nav {
-        display: block;
         height: 100%;
         margin: 0;
         position: fixed;
+        top: 0;
+        z-index: 998;
+        font-weight: 500;
+        overflow: hidden;
         width: 100%;
         background: $twitter-blue;
-        padding-top: 4rem;
+        padding-top: 6rem;
         display: none;
         a {
             color: white;
@@ -52,26 +55,25 @@
             padding-top: 4rem;
         }
     }
-    input[type=checkbox] {
-        display: none;
-    }
-    label {
-        float: right;
-        display: block;
-        cursor: pointer;
-        -webkit-user-select: none;
-        /* Chrome all / Safari all */
-        -moz-user-select: none;
-        /* Firefox all */
-        -ms-user-select: none;
-        /* IE 10+ */
-        user-select: none;
-        // width: 5rem;
-        // height: 5rem;
-        // border-radius: 50%;
-        margin-top: 1rem;
-        i {
-            color: $twitter-blue;
+    #menu-portfolio {
+        a {
+            float: right;
+            display: block;
+            -webkit-user-select: none;
+            /* Chrome all / Safari all */
+            -moz-user-select: none;
+            /* Firefox all */
+            -ms-user-select: none;
+            /* IE 10+ */
+            user-select: none;
+            // width: 5rem;
+            // height: 5rem;
+            // border-radius: 50%;
+            margin-top: 0.75rem;
+            margin-bottom: 0.75rem;
+            i {
+                color: $twitter-blue;
+            }
         }
     }
     i {

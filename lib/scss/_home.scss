@@ -22,23 +22,6 @@
     }
 }
 
-#container-footer {
-    position: relative;
-    width: 100%;
-    h4,
-    h5 {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .icons {
-        font-size: 2rem;
-        margin-bottom: 4rem;
-    }
-    footer {
-        padding-top: 4rem;
-    }
-}
-
 #sobre {
     .img-responsive {
         width: 80%;
@@ -50,6 +33,32 @@
     h3 {
         margin: 0;
         display: inline-block;
+    }
+}
+
+#container-footer {
+    position: relative;
+    width: 100%;
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: $light-green !important;
+        }
+    }
+    .icons {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    #colophon {
+        padding-top: 4rem;
+    }
+    #personal-information {
+        h4,
+        h5 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 }
 

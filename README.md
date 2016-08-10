@@ -21,5 +21,3 @@
 ### include all the links on footer two columns
 
 ### Include button "Expandir" to hide some skills
-
-### putting the button and location beside the form

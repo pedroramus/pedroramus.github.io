@@ -117,4 +117,5 @@ textarea {
             color: $light-green;
         }
     }
+    @extend .scroll-animate;
 }

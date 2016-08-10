@@ -41,6 +41,7 @@ gulp.task('uglyjs', function(){
 
 gulp.task('watch', function() {
     gulp.watch(paths.sass, ['sass']);
+    gulp.watch(paths.js, ['uglyjs']);
 });
 
-gulp.task('default', ['watch', 'webserver', 'uglyjs']);
+gulp.task('default', ['watch', 'webserver']);

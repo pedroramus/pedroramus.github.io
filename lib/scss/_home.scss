@@ -37,3 +37,17 @@
 		padding-top: 4rem;
 	}
 }
+
+#sobre {
+    .img-responsive {
+        width: 80%;
+        max-width: 21rem;
+    }
+    img {
+        display: inline-block;
+    }
+    h3 {
+        margin: 0;
+        display: inline-block;
+    }
+}

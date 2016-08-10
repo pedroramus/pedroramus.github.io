@@ -19,3 +19,5 @@
 ### Minify all the js files for production
 
 ### include all the links on footer two columns
+
+### Include button "Mais" to hide some skills

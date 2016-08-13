@@ -1,0 +1,34 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="459.494px" height="208.354px" viewBox="0 0 459.494 200" style="enable-background:new 0 0 459.494 208.354;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:19;stroke-miterlimit:10;}
+	.st1{fill:#64CBCA;}
+	.st2{fill:#336799;}
+	.st3{fill:url(#XMLID_79_);}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'Roboto';}
+	.st7{font-size:56px;}
+	.st8{letter-spacing:-2;}
+</style>
+<g id="XMLID_1_">
+	<line id="XMLID_5_" class="st0" x1="167.074" y1="188.785" x2="260.744" y2="20.43"/>
+	<polygon id="XMLID_2_" class="st1" points="196.934,49.304 196.934,5 241.238,49.304 	"/>
+	<polygon id="XMLID_6_" class="st2" points="297.782,49.304 253.479,49.304 297.782,5 	"/>
+	<polygon id="XMLID_7_" class="st2" points="236.061,161.633 236.061,205.937 191.757,161.633 	"/>
+	<polygon id="XMLID_8_" class="st1" points="134.403,161.633 178.706,161.633 134.403,205.937 	"/>
+	<g id="XMLID_4_">
+		<linearGradient id="XMLID_79_" gradientUnits="userSpaceOnUse" x1="7.5672" y1="105.4684" x2="451.9265" y2="105.4684">
+			<stop  offset="0" style="stop-color:#64CBCA"/>
+			<stop  offset="0.5242" style="stop-color:#4B98B1"/>
+			<stop  offset="1" style="stop-color:#336799"/>
+		</linearGradient>
+		<path id="XMLID_76_" class="st3" d="M425.926,158.633H33.567c-14.3,0-26-11.7-26-26V78.304c0-14.3,11.7-26,26-26h392.359
+			c14.3,0,26,11.7,26,26v54.329C451.926,146.933,440.226,158.633,425.926,158.633z"/>
+	</g>
+	<line id="XMLID_3_" class="st4" x1="162.074" y1="199.57" x2="290.82" y2="-25.747"/>
+	<text id="XMLID_9_" transform="matrix(1 0 0 1 31.6177 124.8865)" style="font-family:'Roboto'"><tspan x="0" y="0" class="st5 st6 st7 st8">P</tspan><tspan x="35.219" y="0" class="st5 st6 st7">edro</tspan></text>
+	<text id="XMLID_10_" transform="matrix(1 0 0 1 253.4786 124.8864)" style="font-family:'Roboto'"><tspan x="0" y="0" class="st5 st6 st7">R</tspan><tspan x="39.539" y="0" class="st5 st6 st7">amos</tspan></text>
+</g>
+</svg>

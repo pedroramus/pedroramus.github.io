@@ -55,6 +55,23 @@
             padding-top: 4rem;
         }
     }
+    #name-logo {
+        float: left !important;
+        color: $twitter-blue;
+        text-decoration: none;
+        img {
+            height: 25px;
+            width: auto;
+            display: inline;
+        }
+        h5 {
+            margin-top: .75rem;
+            margin-bottom: .75rem;
+            font-weight: 700;
+            display: inline;
+            padding-left: 10px;
+        }
+    }
     #menu-portfolio {
         a {
             float: right;

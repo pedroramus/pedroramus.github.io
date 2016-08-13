@@ -1,0 +1,32 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 900 900" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:19;stroke-miterlimit:10;}
+	.st1{fill:#64CBCA;}
+	.st2{fill:#336799;}
+	.st3{fill:url(#XMLID_12_);}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'ArialRoundedMTBold';}
+	.st7{font-size:56px;}
+</style>
+<g id="XMLID_2_">
+	<line id="XMLID_5_" class="st0" x1="409.975" y1="498.127" x2="503.646" y2="329.772"/>
+	<polygon id="XMLID_1_" class="st1" points="439.835,358.646 439.835,314.342 484.139,358.646 	"/>
+	<polygon id="XMLID_6_" class="st2" points="540.684,358.646 496.38,358.646 540.684,314.342 	"/>
+	<polygon id="XMLID_7_" class="st2" points="478.962,470.975 478.962,515.279 434.658,470.975 	"/>
+	<polygon id="XMLID_8_" class="st1" points="377.304,470.975 421.608,470.975 377.304,515.279 	"/>
+	<g id="XMLID_4_">
+		<linearGradient id="XMLID_12_" gradientUnits="userSpaceOnUse" x1="250.4684" y1="414.8101" x2="694.8276" y2="414.8101">
+			<stop  offset="0" style="stop-color:#64CBCA"/>
+			<stop  offset="0.5242" style="stop-color:#4B98B1"/>
+			<stop  offset="1" style="stop-color:#336799"/>
+		</linearGradient>
+		<path id="XMLID_24_" class="st3" d="M668.828,467.975H276.468c-14.3,0-26-11.7-26-26v-54.329c0-14.3,11.7-26,26-26h392.359
+			c14.3,0,26,11.7,26,26v54.329C694.828,456.275,683.128,467.975,668.828,467.975z"/>
+	</g>
+	<line id="XMLID_3_" class="st4" x1="404.975" y1="508.911" x2="533.721" y2="283.595"/>
+	<text id="XMLID_9_" transform="matrix(1 0 0 1 274.5189 434.2283)" class="st5 st6 st7" style="font-family:'Roboto'">Pedro</text>
+	<text id="XMLID_10_" transform="matrix(1 0 0 1 496.3798 434.2282)" class="st5 st6 st7" style="font-family:'Roboto'">Ramos</text>
+</g>
+</svg>

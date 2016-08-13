@@ -10,6 +10,8 @@
 
 
 ## Don't forget
+### social midia
+### send email
 
 ### Add support to svg if the browser doesn't support
 * link: https://css-tricks.com/using-svg/

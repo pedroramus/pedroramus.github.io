@@ -1,0 +1,24 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="149.219px" height="150.781px" viewBox="0 0 149.219 150.781" style="enable-background:new 0 0 149.219 150.781;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_43_);}
+	.st1{fill:#1DA1F2;}
+	.st2{font-family:'ArialRoundedMTBold';}
+	.st3{font-size:78px;}
+	.st4{fill:#FFFFFF;}
+</style>
+<g id="XMLID_1_">
+	<linearGradient id="XMLID_43_" gradientUnits="userSpaceOnUse" x1="4.5781" y1="75.3906" x2="144.6406" y2="75.3906">
+		<stop  offset="0.5" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.5" style="stop-color:#1DA1F2"/>
+	</linearGradient>
+	<path id="XMLID_98_" class="st0" d="M13.078,145.422c-4.687,0-8.5-3.813-8.5-8.5V13.859c0-4.687,3.813-8.5,8.5-8.5h123.063
+		c4.687,0,8.5,3.813,8.5,8.5v123.063c0,4.687-3.813,8.5-8.5,8.5H13.078z"/>
+	<path id="XMLID_82_" class="st1" d="M136.141,5.859c4.4,0,8,3.6,8,8v123.063c0,4.4-3.6,8-8,8H13.078c-4.4,0-8-3.6-8-8V13.859
+		c0-4.4,3.6-8,8-8H136.141 M136.141,4.859H13.078c-4.963,0-9,4.037-9,9v123.063c0,4.963,4.037,9,9,9h123.063c4.963,0,9-4.037,9-9
+		V13.859C145.141,8.897,141.103,4.859,136.141,4.859L136.141,4.859z"/>
+</g>
+<text id="XMLID_2_" transform="matrix(1 0 0 1 15.4688 95.8601)" class="st1 st2 st3">p</text>
+<text id="XMLID_11_" transform="matrix(1 0 0 1 92.2935 95.8601)" class="st4 st2 st3">r</text>
+</svg>

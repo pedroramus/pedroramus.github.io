@@ -37,6 +37,13 @@ header {
 ul {
     list-style: none;
 }
+strong {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
 
 .border-grey {
     border: 1px solid $background-grey-color;

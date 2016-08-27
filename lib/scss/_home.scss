@@ -9,6 +9,12 @@
     display: block;
 }
 
+#servicos {
+    article {
+        min-height: 440px;
+    }
+}
+
 #projetos {
     a:hover {
         .back-green {

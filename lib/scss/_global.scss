@@ -37,6 +37,7 @@ header {
 ul {
     list-style: none;
 }
+
 strong {
     font-weight: 700;
 }
@@ -58,9 +59,7 @@ i {
     color: white;
     @extend .gradient-green-back;
     &:hover {
-        background: rgba(0, 0, 0, 0);
-        color: $light-green;
-        border: 1px solid $light-green;
+        color: white;
     }
 }
 
@@ -144,5 +143,15 @@ i {
 @media (min-width: $screen-sm) {
     .remove-margin-sm {
         margin-top: 0 !important;
+    }
+}
+
+@media (min-width: $screen-md) {
+    .btn-main {
+        &:hover {
+            background: rgba(0, 0, 0, 0);
+            color: $light-green;
+            border: 1px solid $light-green;
+        }
     }
 }
